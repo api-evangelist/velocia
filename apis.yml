@@ -1,7 +1,13 @@
 aid: velocia
 name: Velocia
-description: Velocia is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Velocia is a transit ridership solutions company that uses real-time rewards, incentives,
+  and digital tools to increase public-transit ridership and engagement for transit agencies and
+  cities. Its programs include a Rider Incentive Program, Transit Ambassador Program, Mobility
+  Wallet, rider surveys, an Automated Guaranteed Ride Home Program, and Major Event Solutions,
+  integrated into transit apps to drive behavior change. Velocia partners with agencies and mobility
+  services such as Miami-Dade County, King County Metro, Seattle DOT, Lime, Zipcar, Uber, Lyft, and
+  CitiBike Miami. Founded in 2018 and based in Toronto, Velocia is a Techstars-backed company. This
+  profile has no public developer/API surface at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/velocia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,29 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Mobility
+- Transit
+- Rewards
+- Incentives
+- Public Transportation
+- Smart Cities
+image: https://velocia.io/
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/velocia-domain-security.yml
 - type: Website
   url: https://velocia.io/
+- type: About
+  url: https://velocia.io/about/
+- type: Blog
+  url: https://velocia.io/news/
+- type: CaseStudies
+  url: https://velocia.io/case-studies/
+- type: Support
+  url: https://velocia.io/work-with-us/
+- type: SignUp
+  url: https://velocia.io/work-with-us/
+- type: PrivacyPolicy
+  url: https://velocia.io/privacy/
+- type: TermsOfService
+  url: https://velocia.io/terms-and-conditions/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
